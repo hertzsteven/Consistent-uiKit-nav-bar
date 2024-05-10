@@ -13,6 +13,7 @@
 		46CF519C2BD07BCA0076EAAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46CF519B2BD07BCA0076EAAE /* Base */; };
 		46CF519E2BD07BCC0076EAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF519D2BD07BCC0076EAAE /* Assets.xcassets */; };
 		46CF51A12BD07BCC0076EAAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46CF51A02BD07BCC0076EAAE /* Base */; };
+		46CF51A92BD0CB7F0076EAAE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF51A82BD0CB7F0076EAAE /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		46CF519D2BD07BCC0076EAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CF51A02BD07BCC0076EAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46CF51A22BD07BCD0076EAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CF51A82BD0CB7F0076EAAE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				46CF51942BD07BCA0076EAAE /* AppDelegate.swift */,
 				46CF51962BD07BCA0076EAAE /* SceneDelegate.swift */,
 				46CF51982BD07BCA0076EAAE /* ViewController.swift */,
+				46CF51A82BD0CB7F0076EAAE /* BaseViewController.swift */,
 				46CF519A2BD07BCA0076EAAE /* Main.storyboard */,
 				46CF519D2BD07BCC0076EAAE /* Assets.xcassets */,
 				46CF519F2BD07BCC0076EAAE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CF51992BD07BCA0076EAAE /* ViewController.swift in Sources */,
+				46CF51A92BD0CB7F0076EAAE /* BaseViewController.swift in Sources */,
 				46CF51952BD07BCA0076EAAE /* AppDelegate.swift in Sources */,
 				46CF51972BD07BCA0076EAAE /* SceneDelegate.swift in Sources */,
 			);

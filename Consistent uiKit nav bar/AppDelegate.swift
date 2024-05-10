@@ -13,7 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Set up the navigation bar appearance globally
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.configureWithOpaqueBackground()
+        navBarAppearance.backgroundColor = UIColor.systemBlue // Set your color
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white] // Set title color
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white] // Set large title color
+
+        // Optional: Set a background image for the navigation bar
+        // navBarAppearance.backgroundImage = UIImage(named: "yourBackgroundImage")
+
+        // Apply the appearance to all navigation bars
+        UINavigationBar.appearance().standardAppearance = navBarAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
+        UINavigationBar.appearance().compactAppearance = navBarAppearance // For iPhone small navigation bar in landscape
+
         return true
     }
 

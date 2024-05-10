@@ -7,13 +7,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: BaseViewController {
     override func viewDidLoad() {
+        
+        // Set your specific title text here before calling super.viewDidLoad()
+        let titleTexts = ["Lander Torah", "Rabbi Moshe Bamberger"]
+        let nbr = Int.random(in: 0..<2)
+
+        self.titleText = titleTexts[nbr] 
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Other custom setup for this view controller
     }
-
-
 }
-
